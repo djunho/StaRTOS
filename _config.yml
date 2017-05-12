@@ -1,0 +1,28 @@
+# Site settings
+title: StaRTOS
+header-img: img/home-bg.jpg
+email: djunho@gmail.com
+copyright_name: Daniel Junho
+description: "A história (ainda sendo escrita) de mais um RTOS."
+baseurl: ""
+url: "http://danieljunho.com/StaRTOS"
+twitter_username: djunho
+github_username:  djunho
+facebook_username:  djunho
+email_username:  djunho@gmail.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+input: GFM
+syntax_highlighter: rouge
+#highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+include: ["_images"]
+
+gems: [jekyll-paginate, jekyll-feed]
